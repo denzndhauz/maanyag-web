@@ -1,0 +1,32 @@
+[
+	{
+		"room_id" : 1,
+		"room_name": "Deluxe",
+		"room_rate" : "2000",
+		"num_bed" : 1,
+		"aircon" : 1,
+		"room_serv" : 1,
+		"cr_bath" : 1,
+		"file_path" : "room_img/room_1.jpg"
+	},
+	{
+		"room_id" : 2,
+		"room_name": "Barkadahan",
+		"room_rate" : "2300",
+		"num_bed" : 4,
+		"aircon" : 1,
+		"room_serv" : 1,
+		"cr_bath" : 1,
+		"file_path" : "room_img/room_2.jpg"
+	},
+	{
+		"room_id" : 3,
+		"room_name": "Premium Deluxe",
+		"room_rate" : "2300",
+		"num_bed" : 4,
+		"aircon" : 1,
+		"room_serv" : 1,
+		"cr_bath" : 1,
+		"file_path" : "room_img/room_2.jpg"
+	}
+]
