@@ -1,0 +1,157 @@
+body {
+    background-image: url("/main/img/bg-main.jpg");
+    background-repeat: repeat;
+}
+.nav-glass {
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+} 
+.list {
+	padding:5px;
+}
+.page-header {
+	border-bottom: 1px solid #6c856f !important;
+}
+.float-menu {
+	font-family: sans-serif;
+	background-color: transparent;
+	padding: 5px;
+	width: 230px;
+	z-index: 100;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+.navbar-brand > .logo {
+	height: 46px;
+	margin-top: -20px;
+}
+.navbar-brand > .brand-title {
+	color: #007d41;
+	text-shadow: .4px .4px #78a60c;
+	margin-top: -9px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 13px;
+}
+.navbar {
+	font-family: 'Roboto Slab', serif;
+	text-shadow: .4px .4px #757575;
+	color: black;
+}
+.custom-panel {
+  background-color: hsl(70, 11%, 23%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7b7f66", endColorstr="#3e4134");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#7b7f66), to(#3e4134));
+  background-image: -moz-linear-gradient(top, #7b7f66, #3e4134);
+  background-image: -ms-linear-gradient(top, #7b7f66, #3e4134);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7b7f66), color-stop(100%, #3e4134));
+  background-image: -webkit-linear-gradient(top, #7b7f66, #3e4134);
+  background-image: -o-linear-gradient(top, #7b7f66, #3e4134);
+  background-image: linear-gradient(#7b7f66, #3e4134);
+  border-color: #3e4134 #3e4134 hsl(70, 11%, 17.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.36);
+  -webkit-font-smoothing: antialiased;
+}
+/* Makes images fully responsive */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+
+/* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+
+.section-white {
+   padding: 10px 0;
+}
+
+.section-white {
+  background-color: #fff;
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+
+  .section-white {
+     padding: 1.5em 0;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .container {
+    max-width: 930px;
+  }
+
+}
+
+@media screen and (min-width: 320px) {
+
+  .carousel-caption {
+  	font-size: 18px;
+  	padding:10px;
+  }
+
+}
+
+@media screen and (min-width: 320px) {
+
+  .carousel-caption {
+  	font-size: 18px;
+  	padding:10px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .carousel-caption {
+  	font-size: 30px;
+  	padding:10px;
+  }
+
+}
